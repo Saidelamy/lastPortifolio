@@ -1,6 +1,16 @@
 import { LuImport } from 'react-icons/lu';
+
 import saidImage from '../assets/myimage.JPG';
+import pdf from '../assets/SaidElamy_cv.pdf';
+
 const Hero = () => {
+  const downloadPDF = () => {
+    const link = document.createElement('a');
+    link.href = pdf;
+    link.download = 'saidcv';
+    link.click();
+  };
+
   return (
     <section>
       <div className="flex flex-col items-center justify-center">
@@ -18,13 +28,10 @@ const Hero = () => {
         </div>
         <div className="mt-8">
           <a
-            href="/Benson-Langford.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            className="flex items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400"
+            onClick={downloadPDF}
+            className="flex cursor-pointer items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400"
           >
-            <span>Resume.pdf</span>
+            <span>Said Magdy Resume</span>
             <LuImport className="ml-2" />
           </a>
         </div>
