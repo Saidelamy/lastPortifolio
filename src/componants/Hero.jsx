@@ -1,11 +1,11 @@
-import { LuImport } from "react-icons/lu";
-import saidImage from "../assets/myimage.jpg";
+import { LuImport } from 'react-icons/lu';
+import saidImage from '../assets/myimage.JPG';
 const Hero = () => {
   return (
     <section>
       <div className="flex flex-col items-center justify-center">
-        <div className="lg:grid lg:grid-cols-12 ">
-          <h1 className="col-span-8  mt-16 overflow-hidden text-[12vw] font-semibold uppercase leading-none">
+        <div className="lg:grid lg:grid-cols-12">
+          <h1 className="col-span-8 mt-16 overflow-hidden text-[12vw] font-semibold uppercase leading-none">
             Said magdy
             <br />
             Elamy
@@ -13,7 +13,7 @@ const Hero = () => {
           <img
             src={saidImage}
             alt="said Image"
-            className="col-span-4 mt-8 h-[25rem] lg:h-[30rem] w-full object-contain rounded-full opacity-70"
+            className="col-span-4 mt-8 h-[25rem] w-full rounded-full object-contain opacity-70 lg:h-[30rem]"
           />
         </div>
         <div className="mt-8">
