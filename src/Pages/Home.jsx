@@ -8,7 +8,7 @@ import Projects from '../componants/Projects';
 const Home = () => {
   return (
     <>
-      <main className="font-light text-white antialiased selection:bg-lime-300 selection:text-black">
+      <main>
         <Navbar />
         <Hero />
         <Marquee />

@@ -26,11 +26,11 @@ const ProjectDetails = () => {
           />
         </div>
 
-        <div className="col-span-12 flex flex-col items-start justify-center gap-5 lg:col-span-4">
+        <div className="col-span-12 flex flex-col items-start justify-center gap-5 font-normal lg:col-span-4">
           <div className="text-white">
             <p className="mt-3 text-lg">{description}</p>
           </div>
-          <div className="flex flex-wrap gap-1 [&>*]:border-2 [&>*]:bg-white [&>*]:px-2 [&>*]:opacity-50">
+          <div className="flex flex-wrap gap-1 text-black [&>*]:border-2 [&>*]:bg-white [&>*]:px-2 [&>*]:opacity-50">
             {splitTechText.map((tech, index) => (
               <span key={index}>{tech}</span>
             ))}

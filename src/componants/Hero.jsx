@@ -23,7 +23,7 @@ const Hero = () => {
           <img
             src={saidImage}
             alt="said Image"
-            className="col-span-4 mt-8 h-[25rem] w-full rounded-full object-contain opacity-70 lg:h-[30rem]"
+            className="col-span-4 mt-8 h-[25rem] w-full rounded-full object-contain opacity-100 lg:h-[30rem]"
           />
         </div>
         <div className="mt-8">

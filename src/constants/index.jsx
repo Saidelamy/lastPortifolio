@@ -88,7 +88,7 @@ export const PROJECTS = [
   },
   {
     id: 7,
-    title: 'Reseptionist app',
+    title: 'Hotel Website',
     description:
       'A site that contains many advantages The site is used through the reception in a hotel where the site contains the display of all the information of the hotel in terms of rooms and people who stay in the hotel and also displays all the information about the people who made the reservation through the mobile and check in and check out for any existing reservation and also allows the worker to modify anything such as the number of beds in the room or the number of rooms and each worker has his own email.',
     imgSrc: wild,
@@ -100,7 +100,7 @@ export const PROJECTS = [
 ];
 
 export const ABOUT =
-  'As a dedicated Frontend Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.';
+  'As a dedicated Frontend Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in front-end technologies, I excel in building robust and scalable solutions. My experience includes working with JavaScript frameworks like React.js and many of its related libraries. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.';
 
 // export const EXPERIENCES = [
 //   {
