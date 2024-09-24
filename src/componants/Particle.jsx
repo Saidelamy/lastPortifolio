@@ -24,7 +24,7 @@ const Particle = () => {
   }, []);
 
   const particlesLoaded = (container) => {
-    return container
+    return container;
   };
 
   const options = useMemo(
@@ -74,7 +74,7 @@ const Particle = () => {
             default: 'bounce',
           },
           random: false,
-          speed: 6,
+          speed: 2,
           straight: false,
         },
         number: {
