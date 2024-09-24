@@ -7,7 +7,7 @@ export default defineConfig({
   assetsInclude: ['**/*.JPG'],
   build: {
     rollupOptions: {
-      external: ['@tsparticles/react'],
+      external: ['@tsparticles/slim'],
     },
   },
 });
