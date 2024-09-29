@@ -8,13 +8,13 @@ import { RiTailwindCssFill } from 'react-icons/ri';
 import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3 } from 'react-icons/fa';
 
-import ecommerce from '../assets/ecommerce.png';
-import worldwise from '../assets/worldwise.png';
-import pizzaProject from '../assets/pizzaProject.png';
-import film from '../assets/film.png';
-import todo from '../assets/todo.png';
-import ratingProject from '../assets/ratingProject.png';
-import wild from '../assets/wild.png';
+import ecommerce from '../assets/ecommerce.webp';
+import worldwise from '../assets/worldwise.webp';
+import pizzaProject from '../assets/pizzaProject.webp';
+import film from '../assets/film.webp';
+import todo from '../assets/todo.webp';
+import ratingProject from '../assets/ratingProject.webp';
+import wild from '../assets/wild.webp';
 
 export const LINKS = [{ id: '/', name: 'Home' }];
 
@@ -101,23 +101,6 @@ export const PROJECTS = [
 
 export const ABOUT =
   'As a dedicated Frontend Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in front-end technologies, I excel in building robust and scalable solutions. My experience includes working with JavaScript frameworks like React.js and many of its related libraries. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.';
-
-// export const EXPERIENCES = [
-//   {
-//     company: "Google",
-//     role: "Software Engineer",
-//     year: "12/2023 - Present",
-//     description:
-//       "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
-//   },
-//   {
-//     company: "Facebook",
-//     role: "Frontend Developer",
-//     year: "01/2021 - 11/2023",
-//     description:
-//       "Implemented user interfaces for web applications using React and Redux. Worked closely with designers to ensure seamless user experiences. Optimized components for maximum performance across a vast array of web-capable devices and browsers. Participated in code reviews and provided feedback to maintain high code quality.",
-//   },
-// ];
 
 export const laibrariesIcon = [
   {

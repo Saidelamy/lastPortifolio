@@ -6,10 +6,17 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
 // import Particle from './componants/Particle.jsx';
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
+      {/* <Helmet>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet> */}
       <App />
       {/* <Particle id="particle" /> */}
       <ToastContainer

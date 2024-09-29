@@ -1,33 +1,21 @@
-import { useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { LINKS } from '../constants';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, NavLink } from 'react-router-dom';
+import useNavbar from '../hooks/useNavbar';
+
+const containerVariants = {
+  hidden: { opacity: 0, y: '-100%' },
+  visable: { opacity: 1, y: 0, transition: { staggerChildren: 0.1 } },
+};
+
+const linkVariants = {
+  hidden: { opacity: 0, y: -50 },
+  visable: { opacity: 1, y: 0 },
+};
 
 const Navbar = () => {
-  const [isOpened, setIsOpened] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpened(!isOpened);
-  };
-
-  useEffect(() => {
-    if (isOpened) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-  }, [isOpened]);
-
-  const containerVariants = {
-    hidden: { opacity: 0, y: '-100%' },
-    visable: { opacity: 1, y: 0, transition: { staggerChildren: 0.1 } },
-  };
-
-  const linkVariants = {
-    hidden: { opacity: 0, y: -50 },
-    visable: { opacity: 1, y: 0 },
-  };
+  const { isOpened, toggleMenu } = useNavbar();
 
   return (
     <div className="text-3xl text-white">

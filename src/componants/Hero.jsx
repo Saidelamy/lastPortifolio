@@ -1,6 +1,6 @@
 import { LuImport } from 'react-icons/lu';
 
-import saidImage from '../assets/myimage.JPG';
+import saidImage from '../assets/myimage.webp';
 import pdf from '../assets/SaidElamy_cv.pdf';
 
 const Hero = () => {
@@ -15,16 +15,23 @@ const Hero = () => {
     <section>
       <div className="flex flex-col items-center justify-center">
         <div className="lg:grid lg:grid-cols-12">
-          <h1 className="col-span-8 mt-16 overflow-hidden text-[12vw] font-semibold uppercase leading-none">
-            Said magdy
-            <br />
-            Elamy
-          </h1>
-          <img
-            src={saidImage}
-            alt="said Image"
-            className="col-span-4 mt-8 h-[25rem] w-full rounded-full object-contain opacity-100 lg:h-[30rem]"
-          />
+          <div className="col-span-8 mt-16 overflow-hidden text-[12vw] font-semibold uppercase leading-none">
+            <h1>
+              Said magdy
+              <br />
+              Elamy
+            </h1>
+          </div>
+          <div className="col-span-4 mt-8">
+            <img
+              src={saidImage}
+              alt="said Image"
+              loading="lazy"
+              width="460"
+              height="480"
+              className="h-[25rem] w-full rounded-full object-contain opacity-90 lg:h-[30rem]"
+            />
+          </div>
         </div>
         <div className="mt-8">
           <a
