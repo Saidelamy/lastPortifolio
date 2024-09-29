@@ -22,6 +22,8 @@ const Projects = () => {
                 alt={project.title}
                 className="aspect-[4/3] w-full object-cover"
                 loading="lazy"
+                width="395"
+                height="320"
               />
               <div className="absolute bottom-0 left-0 right-0 m-3 p-8 text-3xl text-white backdrop-brightness-50">
                 {project.title}
