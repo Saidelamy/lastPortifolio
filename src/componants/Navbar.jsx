@@ -23,6 +23,7 @@ const Navbar = () => {
         <button
           onClick={toggleMenu}
           className="rounded-md p-2 md:fixed md:right-4 md:top-1/2"
+          id="text"
         >
           {isOpened ? (
             <FaTimes className="h-6 w-6" />

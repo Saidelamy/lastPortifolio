@@ -26,6 +26,7 @@ const Hero = () => {
             <img
               src={saidImage}
               alt="said Image"
+              loading="lazy"
               width="460"
               height="480"
               className="h-[25rem] w-full rounded-full object-contain opacity-90 lg:h-[30rem]"
@@ -33,13 +34,13 @@ const Hero = () => {
           </div>
         </div>
         <div className="mt-8">
-          <a
+          <div
             onClick={downloadPDF}
             className="flex cursor-pointer items-center rounded-xl bg-lime-300 p-2 px-3 font-sans font-medium text-black hover:bg-lime-400"
           >
             <span>Said Magdy Resume</span>
             <LuImport className="ml-2" />
-          </a>
+          </div>
         </div>
         <div className="w-full"></div>
       </div>
