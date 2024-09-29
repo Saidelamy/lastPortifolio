@@ -4,10 +4,10 @@ import { Route, Routes } from 'react-router-dom';
 import AppLayout from './Routes/AppLayout';
 import Spinner from './Ui/Spinner';
 
-const Home = lazy(() => import('./Pages/Home'));
+// const Home = lazy(() => import('./Pages/Home'));
 const ProjectDetails = lazy(() => import('./Pages/ProjectDetails'));
 
-// import Home from './Pages/Home';
+import Home from './Pages/Home';
 // import ProjectDetails from './Pages/ProjectDetails';
 
 const App = () => {
