@@ -18,7 +18,6 @@ const App = () => {
           <Routes>
             <Route element={<AppLayout />}>
               <Route index element={<Home />} />
-              <Route path="/" element={<Home />} />
               <Route path="project/:productId" element={<ProjectDetails />} />
             </Route>
           </Routes>
