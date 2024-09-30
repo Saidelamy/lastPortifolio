@@ -29,7 +29,7 @@ const Hero = () => {
               loading="eager"
               width="460"
               height="480"
-              className="h-[25rem] w-full rounded-full object-contain opacity-90 lg:h-[30rem]"
+              className="h-[25rem] w-full rounded-full object-contain opacity-100 lg:h-[30rem]"
             />
           </div>
         </div>

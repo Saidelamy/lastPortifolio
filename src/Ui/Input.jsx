@@ -14,7 +14,7 @@ const Input = ({ name, rules, type, id, placeholder, ...props }) => {
         type={type}
         name={name}
         id={id}
-        className="focus:border-b-blac k peer h-12 w-full border-b-2 border-gray-300 bg-transparent px-2 py-3 text-white placeholder-transparent focus:border-b-white focus:outline-none"
+        className="focus:border-b-blac k peer h-12 w-full border-b-2 border-gray-300 bg-transparent px-2 py-3 text-white placeholder-transparent caret-lime-400 focus:border-b-white focus:outline-none"
         placeholder={placeholder}
         {...register(name, rules)}
         autoComplete="nope"
