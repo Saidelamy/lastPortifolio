@@ -5,7 +5,13 @@ const Footer = () => {
     <>
       <div className="mt-8 flex items-center justify-center gap-8 text-white">
         {SOCIAL_MEDIA_LINKS.map((link, index) => (
-          <a key={index} href={link.href} target="_blank" rel="said">
+          <a
+            key={index}
+            aria-label="Links"
+            href={link.href}
+            target="_blank"
+            rel="said"
+          >
             {link.icon}
           </a>
         ))}
