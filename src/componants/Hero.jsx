@@ -26,7 +26,7 @@ const Hero = () => {
             <img
               src={saidImage}
               alt="said Image"
-              loading="lazy"
+              loading="eager"
               width="460"
               height="480"
               className="h-[25rem] w-full rounded-full object-contain opacity-90 lg:h-[30rem]"
