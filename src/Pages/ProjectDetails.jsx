@@ -23,6 +23,7 @@ const ProjectDetails = () => {
             className="w-full object-contain lg:h-[30rem]"
             src={imgSrc}
             alt={title}
+            loading="lazy"
             width="840"
             height="480"
           />
