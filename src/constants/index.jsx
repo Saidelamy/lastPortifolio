@@ -15,6 +15,7 @@ import film from '../assets/film.webp';
 import todo from '../assets/todo.webp';
 import ratingProject from '../assets/ratingProject.webp';
 import wild from '../assets/wild.webp';
+import prayertime from '../assets/prayertime.png';
 
 export const LINKS = [{ id: '/', name: 'Home' }];
 
@@ -96,6 +97,16 @@ export const PROJECTS = [
     liveLink: 'https://thewild-oasis-virid.vercel.app/',
     technologiesUsed:
       'Supabase, Styled Componant, React.js, React Router, React Error Boundary, React Hook Form, React Host Toast, Recharts, Vite',
+  },
+  {
+    id: 8,
+    title: 'Prayer Time',
+    description:
+      'A site that contain information about the next prayer from time and name of next prayer, the site display time of all prayers and can convert between many of cities to show time of each of them.',
+    imgSrc: prayertime,
+    githubLink: 'https://github.com/Saidelamy/PrayerTime/tree/main',
+    liveLink: 'https://prayer-time-vert.vercel.app/',
+    technologiesUsed: 'React, Vite, Context Api, Hooks.',
   },
 ];
 
