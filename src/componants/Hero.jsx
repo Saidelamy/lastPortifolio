@@ -1,7 +1,7 @@
 import { LuImport } from 'react-icons/lu';
 
 import saidImage from '../assets/myimage.webp';
-import pdf from '../assets/SaidElamy_cv.pdf';
+import pdf from '../assets/Said_Magdy_Frontend_Developer_React.pdf';
 
 const Hero = () => {
   const downloadPDF = () => {
