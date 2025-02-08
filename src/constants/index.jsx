@@ -16,6 +16,7 @@ import todo from '../assets/todo.webp';
 import ratingProject from '../assets/ratingProject.webp';
 import wild from '../assets/wild.webp';
 import prayertime from '../assets/prayertime.png';
+import crypto from '../assets/crypto.png';
 
 export const LINKS = [{ id: '/', name: 'Home' }];
 
@@ -107,6 +108,16 @@ export const PROJECTS = [
     githubLink: 'https://github.com/Saidelamy/PrayerTime/tree/main',
     liveLink: 'https://prayer-time-vert.vercel.app/',
     technologiesUsed: 'React, Vite, Context Api, Hooks.',
+  },
+  {
+    id: 9,
+    title: 'Crypto Currency',
+    description:
+      'Application dedicated to cryptocurrencies, displaying cryptocurrency prices compared to the US dollar, providing a chart and additional information for each cryptocurrency. Users can also compare multiple cryptocurrencies to see how much of each is equal to an amount in USD.',
+    imgSrc: crypto,
+    githubLink: 'https://github.com/Saidelamy/Cryptocurrency',
+    liveLink: 'https://cryptocurrency-weld.vercel.app/',
+    technologiesUsed: 'React, Vite, Redux Toolkit, Tailwind CSS, Charts.js.',
   },
 ];
 
